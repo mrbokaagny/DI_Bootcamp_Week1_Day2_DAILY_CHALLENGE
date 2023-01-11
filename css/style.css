@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
+    
+    nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;}
+    
+    h1{
+    margin: 10px;
+    padding: auto;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+    
+    ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;}
+    
+    ul>li{
+    margin: 30px;
+    padding: auto;
+    }
+    
+    ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;}
+    
+    body{
+    background-image: url("../imgs/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .container>h1{
+    color: black;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;}
+    
+    .container>p{
+    width: 50%;
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;}
+    
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:black;
+        padding:20px ;
+        color: white;
+        text-align: center;
+    }
+    
+    @media screen and (min-width:768px){
+        h1{
+            font-size: 25px;
+        }
+        nav{
+            background-color: greenyellow;
+            color: black;
+        }
+    }
+    
+    @media screen and (min-width:600px){
+        h1{
+            font-size: 35px;
+        }
+        nav{
+            background-color: yellow;
+            color: black;
+        }
+    }
+    
+    @media screen and (min-width:990px){
+        .container{
+            display: inline-block;
+            position: relative;
+        }
+        nav{
+            background-color: red;
+            color: white;
+        }
+    }
+    
+    @media screen and (min-width:1200px){
+        .container{
+            display: inline-block;
+        }
+        nav{
+            background-color: rgb(20, 20, 20);
+            color: rgb(247, 245, 245);
+        }
+    }
